@@ -40,12 +40,9 @@ Proje için gerekli kütüphaneler aşağıdaki gibidir:
 SVM, bir sınıflandırma ve regresyon modelleme algoritmasıdır. Temel prensibi, veri noktalarını sınıflandırmak için bir karar sınırı oluşturmaktır. Bu sınır, veri noktalarını en iyi şekilde ayıran ve maksimum marjin ile iki sınıf arasındaki mesafeyi en büyük hale getiren bir hiperdüzlemdir.
 
 #### Matematiksel Formül:
-Verilen bir veri noktası \( \mathbf{x}_i \) ve karar sınırı \( \mathbf{w} \) ile, sınıf tahmini \( y_i \) aşağıdaki gibi hesaplanır:
+![Ekran Resmi 2024-05-23 17 52 32](https://github.com/handecavsi/AttackDetection_Quantum_ML/assets/34586454/c14439e5-71ff-43b7-b079-de1f8e8d7c23)
 
-y_i = sign(w \cdot x_i + b)
-
-
-Burada \( \mathbf{w} \) ağırlık vektörü, \( b \) sapma (bias) terimidir ve \( \text{sign} \) fonksiyonu sınıf tahminini belirtir.
+![SVM](https://github.com/handecavsi/AttackDetection_Quantum_ML/assets/34586454/a6400924-5f93-44f4-bc75-67356054991e)
 
 ### QSVM (Quantum Support Vector Machine)
 
@@ -53,11 +50,9 @@ Burada \( \mathbf{w} \) ağırlık vektörü, \( b \) sapma (bias) terimidir ve 
 QSVM, SVM'nin kuantum versiyonudur. Klasik SVM'in aksine, QSVM kuantum devreleri kullanarak verileri sınıflandırır. Veriler kuantum devrelerine giriş olarak verilir ve kuantum devreleri, verileri temsil eden kuantum durumlarını işler. Sonuç olarak, QSVM klasik SVM'den daha karmaşık ve daha güçlü sınıflandırma yeteneklerine sahip olabilir.
 
 #### Matematiksel Formül:
-QSVM'nin matematiksel formülasyonu, klasik SVM'ye benzerdir, ancak kuantum devreleri tarafından işlenen veriler kuantum durumları olarak temsil edilir. Matematiksel olarak QSVM'nin işlevi aşağıdaki gibi gösterilir:
+![Ekran Resmi 2024-05-23 17 52 32](https://github.com/handecavsi/AttackDetection_Quantum_ML/assets/34586454/a3bdc4d6-6584-4068-aa96-2966155e3b94)
 
-\[ y_i = \text{sign}(\langle \mathbf{w} | \mathbf{x}_i \rangle + b) \]
-
-Burada \( | \mathbf{w} \rangle \) ve \( | \mathbf{x}_i \rangle \) kuantum durumlarıdır ve \( \langle \cdot | \cdot \rangle \) iç çarpımını belirtir.
+![QSVM](https://github.com/handecavsi/AttackDetection_Quantum_ML/assets/34586454/665eebee-0f5c-42f1-90d3-f4539e517628)
 
 
 # Kuantum Devreleri:
