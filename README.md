@@ -42,7 +42,8 @@ SVM, bir sınıflandırma ve regresyon modelleme algoritmasıdır. Temel prensib
 #### Matematiksel Formül:
 Verilen bir veri noktası \( \mathbf{x}_i \) ve karar sınırı \( \mathbf{w} \) ile, sınıf tahmini \( y_i \) aşağıdaki gibi hesaplanır:
 
-\[ y_i = \text{sign}(\mathbf{w} \cdot \mathbf{x}_i + b) \]
+y_i = sign(w \cdot x_i + b)
+
 
 Burada \( \mathbf{w} \) ağırlık vektörü, \( b \) sapma (bias) terimidir ve \( \text{sign} \) fonksiyonu sınıf tahminini belirtir.
 
@@ -76,6 +77,9 @@ Kuantum devreleri, kuantum bilgisayarlar veya kuantum hesaplama için temel yap�
 Bu avantajlar, QSVM'nin bazı sınıflandırma problemlerinde standart SVM'den daha etkili olmasını sağlar. Ancak, uygulamanın belirli gereksinimlerine ve veri yapısına bağlı olarak, QSVM'nin avantajları ve dezavantajları dikkate alınmalıdır.
 
 Quantum SVM hakkında daha çok bilgi edinmek isterseniz yayınımı inceleyebilirsiniz: 
+
+- *Quantum Deep Learning* [link](https://drive.google.com/file/d/1M9Me9yu4bleYUVq0hr1iK7tU2Ghsd69O/view)
+- _Cite this: Çavşi Zaim H., Yilmaz M., Yolaçan E.N., “Quantum Deep Learning”, Yorumlanabilir ve Açıklanabilir Yapay Zeka ve Güncel Konular, Yapay Zeka ve Büyük Veri Kitap Serisi 4, Nobel Akademik Yayıncılık Eğitim Danışmanlık, 2022._
 
 
 
